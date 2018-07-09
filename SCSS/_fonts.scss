@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300,400,600,700');
+@import 'variables';
+
+html,
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: $content_font;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: $content_font;
+}
+
+a {
+    font-size: .875rem;
+    color: $accent_color1;
+    font-family: $content_font;
+    font-weight: 600;
+}
+
+button, .btn {
+    font-size: .875rem;
+    color: $secondary_color;
+    font-family: $content_font;
+    text-align: center;
+}

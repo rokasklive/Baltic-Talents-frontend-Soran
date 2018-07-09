@@ -1,0 +1,40 @@
+@import 'variables';
+
+.navbar-brand {
+    font-family: $brand_font;
+    font-size: 2.25rem;
+    color: $accent_color1;
+    text-transform: uppercase;
+}
+
+.navbar-brand i {
+    color: $primary_color;
+}
+
+.nav-button {
+    border: none;
+    width: 159px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: $primary_color;
+    color: white;
+    text-align: center;
+}
+
+.navbar-toggler{
+    border: 0;
+    display: inline-block;
+}
+
+nav {
+    height: 100px;
+}
+
+.navbar li {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.header-row{
+background-color: #fafafa;
+}

@@ -41,10 +41,41 @@ h1 {
   color: #fff;
   font-weight: 400;
   font-size: 3rem;
-  padding: 0; }
+  padding: 0;
+  max-width: 879px;
+  word-spacing: 2;
+  line-height: 4.68rem; }
 
 h2 {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: #7f7f7f;
+  font-size: 3rem;
+  font-weight: 700; }
+
+h3 {
+  display: inline-block;
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 36px; }
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #ff64c2;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: bold; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #7f7f7f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px; }
 
 a {
   font-size: .875rem;
@@ -61,6 +92,7 @@ button, .btn {
 .navbar-brand {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 2.25rem;
+  font-weight: 400;
   color: #7f7f7f;
   text-transform: uppercase; }
 
@@ -81,7 +113,8 @@ button, .btn {
   display: inline-block; }
 
 nav {
-  height: 100px; }
+  height: 100px;
+  max-width: 1150px; }
 
 .navbar li {
   padding-left: 1.75rem;
@@ -90,24 +123,132 @@ nav {
 .header-row {
   background-color: #fafafa; }
 
+.navbar-toggler {
+  color: #7f7f7f; }
+
 main {
   width: 100%;
   padding: 0;
   margin: 0; }
 
 .bg {
-  background-image: url("../Assets/img/daniel-von-appen-258076Normal.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(55, 55, 55, 0.72)), to(rgba(55, 55, 55, 0.72))), url("../Assets/img/daniel-von-appen-258076Normal.png");
+  background-image: -webkit-linear-gradient(rgba(55, 55, 55, 0.72), rgba(55, 55, 55, 0.72)), url("../Assets/img/daniel-von-appen-258076Normal.png");
+  background-image: -o-linear-gradient(rgba(55, 55, 55, 0.72), rgba(55, 55, 55, 0.72)), url("../Assets/img/daniel-von-appen-258076Normal.png");
+  background-image: linear-gradient(rgba(55, 55, 55, 0.72), rgba(55, 55, 55, 0.72)), url("../Assets/img/daniel-von-appen-258076Normal.png");
   height: calc(100vh - 100px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.cover-filter {
-  background-color: #373737;
-  -webkit-filter: opacity(0.7);
-  filter: opacity(0.7);
-  width: 100%;
-  height: 100%; }
-
 .cover-item {
   padding: 0; }
+
+.search-bar {
+  border-bottom-left-radius: 35px;
+  border-top-left-radius: 35px;
+  height: 70px;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  width: 100%; }
+
+.search-btn {
+  display: inline-block;
+  width: 140px;
+  height: 70px;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border: none;
+  background-color: #ff64c2;
+  color: white;
+  text-align: center;
+  vertical-align: top; }
+
+.search-container {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 80%;
+  max-width: 736px;
+  margin: 30px; }
+
+.cover-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 80px 0;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  max-width: 235px; }
+
+.cover-container {
+  margin-top: 180px; }
+
+.benefits-paragraph {
+  padding: 20px; }
+
+.benefits-top {
+  margin-top: 145px;
+  margin-bottom: 65px; }
+
+.benefits-bottom {
+  margin-bottom: 145px;
+  margin-top: 65px; }
+
+.accent-row {
+  background-color: #ff64c2; }
+
+.accent-column {
+  background-color: #fff;
+  margin: 150px 0;
+  padding: 36px 30px 36px 36px; }
+
+.shp0 {
+  fill: #ff64c2;
+  -webkit-box-shadow: 0.927px 2.853px 9px rgba(217, 217, 217, 0.5);
+  box-shadow: 0.927px 2.853px 9px rgba(217, 217, 217, 0.5);
+  background-color: #ffffff; }
+
+svg {
+  width: 358px;
+  height: 171px; }
+
+tspan {
+  white-space: pre; }
+
+.cover-btn {
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  display: inline-block; }
+
+.icon {
+  width: 56px;
+  height: 56px;
+  display: inline-block; }
+
+.i-money {
+  background-image: url("../Assets/img/i-money.png");
+  background-repeat: no-repeat;
+  width: 56px;
+  height: 56px; }
+
+.i-hands {
+  background-image: url("../Assets/img/i-hands.png");
+  background-repeat: no-repeat;
+  width: 56px;
+  height: 56px; }

@@ -3,6 +3,7 @@
 .navbar-brand {
     font-family: $brand_font;
     font-size: 2.25rem;
+    font-weight: 400;
     color: $accent_color1;
     text-transform: uppercase;
 }
@@ -28,6 +29,7 @@
 
 nav {
     height: 100px;
+    max-width: 1150px;
 }
 
 .navbar li {
@@ -37,4 +39,8 @@ nav {
 
 .header-row{
 background-color: #fafafa;
+}
+
+.navbar-toggler {
+    color: $accent_color1;
 }

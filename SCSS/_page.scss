@@ -1,0 +1,25 @@
+
+main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("../Assets/img/daniel-von-appen-258076Normal.png");
+    height: calc(100vh - 100px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cover-filter {
+    background-color: #373737;
+    filter: opacity(.7);
+    width: 100%;
+    height: 100%;
+}
+
+.cover-item{
+    padding: 0;
+}

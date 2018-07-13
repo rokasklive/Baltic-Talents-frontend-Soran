@@ -70,6 +70,20 @@ h4 {
   line-height: 27px;
   font-weight: bold; }
 
+h5 {
+  font-family: "Open Sans", sans-serif;
+  color: #7f7f7f;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 2rem 0; }
+
+.author-name {
+  font-family: "Open Sans", sans-serif;
+  color: #7f7f7f;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold; }
+
 p {
   font-family: "Open Sans", sans-serif;
   color: #7f7f7f;
@@ -218,17 +232,91 @@ main {
   padding: 36px 30px 36px 36px; }
 
 .shp0 {
-  fill: #ff64c2;
-  -webkit-box-shadow: 0.927px 2.853px 9px rgba(217, 217, 217, 0.5);
-  box-shadow: 0.927px 2.853px 9px rgba(217, 217, 217, 0.5);
-  background-color: #ffffff; }
+  fill: #ffffff; }
 
 svg {
-  width: 358px;
-  height: 171px; }
+  fill: #f7f; }
 
 tspan {
   white-space: pre; }
+
+div {
+  border: 0px solid grey; }
+
+.happy_guy {
+  padding: 0;
+  margin: 7rem; }
+
+.small_text {
+  margin-top: 1rem;
+  width: 75%; }
+
+.denounce {
+  padding-left: 50px; }
+
+.feedback {
+  background-color: #f8f8f8;
+  padding: 7rem 0; }
+  .feedback .Clients {
+    text-align: center;
+    margin-bottom: 4rem; }
+  .feedback .feedback-author .author-name {
+    margin: 15px 0;
+    text-align: center;
+    display: inline-block; }
+  .feedback .feedback-author p {
+    line-height: 19px;
+    text-align: center; }
+
+.vectors {
+  position: relative;
+  height: 220px;
+  width: 379px; }
+  .vectors .feedback-comment {
+    position: absolute;
+    width: 350px;
+    z-index: 2;
+    top: 84px;
+    left: 22px; }
+  .vectors svg {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 35px; }
+  .vectors img {
+    top: 10px;
+    border-radius: 50%;
+    position: absolute;
+    width: 76px;
+    left: 190px;
+    z-index: 2;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%); }
+
+.card {
+  border-radius: 10px;
+  width: 360px;
+  margin: 30px; }
+
+.box {
+  background-color: #f7f;
+  margin: 10px; }
+
+.card-img-top {
+  height: 367px;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.slick-arrow {
+  background-color: #f7f;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 0;
+  outline: none; }
 
 .cover-btn {
   width: 65px;

@@ -59,12 +59,17 @@ h5 {
     font-weight: bold;
 }
 
-p {
+p, li {
     font-family: $content_font;
     color: $accent_color1;
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
+
+}
+
+li{
+    list-style-type: square;
 
 }
 

@@ -1,8 +1,14 @@
 @import 'reset';
 @import 'fonts';
 @import 'variables';
+@import 'footer';
+@import 'animations';
 @import 'navigation';
 @import 'page';
 @import 'button';
 @import 'icons';
 @import 'header';
+
+.row {
+    margin: 0;
+}

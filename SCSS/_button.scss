@@ -1,6 +1,60 @@
+@import 'animations';
+
 .cover-btn{
+    width: 69px;
+    height: 69px;
+    display: inline-block;
+    padding: 0;
+    border-radius: 50%;
+
+}
+button:focus {outline:0;}
+
+.button-on-hover{
+    transition: all .1s ease-in-out;
+    &:hover{
+        transform: scale(1.01);
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.33);
+    }
+}
+
+.search-btn {
+    display: inline-block;
+    width: 140px;
+    height: 70px;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border: none;
+    background-color: $primary_color;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+}
+
+.email-btn {
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border: none;
+    font-weight: 700;
+    background-color: $accent_color1;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+}
+
+.slick-arrow {
+    background-color: #fff;
+    border-radius: 50%;
     width: 65px;
     height: 65px;
-    background-color: #fff;
-    display: inline-block;
+    align-self: center;
+    border: 0;
+    outline: none;
 }

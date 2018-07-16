@@ -1,7 +1,40 @@
 @import 'reset';
 @import 'fonts';
 @import 'variables';
+@import 'footer';
+@import 'animations';
 @import 'navigation';
 @import 'page';
 @import 'button';
 @import 'icons';
+@import 'header';
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+};
+
+input {
+    text-align: center;
+    font-family: $content_font;
+    color: $accent_color1;
+    font-size: 1rem;
+}
+
+div {
+    border: 0px solid grey;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}

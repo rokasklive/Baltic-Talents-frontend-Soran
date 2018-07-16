@@ -6,11 +6,11 @@
     font-weight: 400;
     color: $accent_color1;
     text-transform: uppercase;
+    i{
+        color: $primary_color;
+    }
 }
 
-.navbar-brand i {
-    color: $primary_color;
-}
 
 .nav-button {
     border: none;
@@ -35,7 +35,9 @@ nav {
 .navbar li {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+    list-style: none;
 }
+
 
 .header-row{
 background-color: #fafafa;

@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/main.css">
     <title>Soran</title>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row header-row justify-content-center">
-            <header class="col-lg-10">
-                <nav class="navbar navbar-expand-lg mx-auto">
+        <header class="row header-row justify-content-center">
+            <div class="col-xl-10 col-lg text-">
+                <nav class="navbar navbar-expand-xl mx-auto">
                     <a class="navbar-brand" href="#"><i class="fas fa-sun"></i><p class="navbar-brand ml-1">Soran</p></a>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav  ml-auto">
@@ -31,67 +32,71 @@
                                 <a class="nav-link" href="#">Contact Us</a>
                             </li>
                         </ul>
-                        <button class="btn nav-button">3 Days free trial
+                        <button class="btn button-on-hover nav-button">3 Days free trial
                         </button>
                     </div>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         &#9776;
                     </button>
                 </nav>
-            </header>
-        </div>
+            </div>
+        </header>
         <main>
             <div class="row bg">
-                <div class="col-lg-12 cover-item d-flex flex-column justify-content-between">
+                <div class="col-xl-12 cover-item d-flex flex-column justify-content-between">
                     <div class="row justify-content-center m-0">
-                        <div class="col-lg-10 cover-container">
+                        <div class="col-xl-10 cover-container">
                             <h1 class=" text-center m-auto">Build Better Websites, The Better Way With Total</h1>
-                            <div class="col-lg-12 flex-row">
+                            <div class="col-xl-12 flex-row">
                                 <div class="search-container mx-auto">
-                                    <input class="search-bar" type="search" value="" id="search-input" placeholder="Search your desire issue for fix">
-                                    <button class="btn search-btn" type="button" name="button">Search</button>
+                                    <input class="search-bar"  align="right" type="search" value="" id="search-input" placeholder="Search your desire issue for fix">
+                                    <button class="btn search-btn button-on-hover" type="button" name="button">Search</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center m-0">
-                        <div class="col-lg-3 p-0 cover-btn-container">
+                        <div class="col-xl-3 p-0 cover-btn-container">
 
-                            <div class="cover-btn">
-
+                            <div class="btn button-on-hover cover-btn">
+                                <a href="#"><img src="Assets/img/fb-btn.png" alt=""></a>
                             </div>
-                            <div class="cover-btn">
-
+                            <div class="btn button-on-hover cover-btn">
+                                <a href="#"><img src="Assets/img/in-btn.png" alt=""></a>
                             </div>
-                            <div class="cover-btn">
-
+                            <div class="btn button-on-hover cover-btn">
+                                <a href="#"><img src="Assets/img/tw-btn.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg">
+                <div class="col-xl">
                     <div class="row justify-content-center benefits-top mb-4">
-                        <div class="col-lg-3 text-center p-0">
+                        <div class="col-xl-6 col-lg-8 col-md-10 text-center p-0">
                             <h2>Our benefits</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
                         </div>
                     </div>
                     <div class="row text-center justify-content-center benefits-bottom">
-                        <div class="col-lg-2">
+                        <div class="col-xl-2 col-md-8 col-lg-6">
+                            <i class="fas fa-clock"></i>
                             <h4>Speed up your site</h4>
                             <p class="benefits-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-xl-2 col-md-8 col-lg-6">
+                            <i class="fas fa-lock"></i>
                             <h4>Security assurance</h4>
                             <p class="benefits-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-xl-2 col-md-8 col-lg-6">
+                            <i class="fas fa-users"></i>
                             <h4>24/7 Live support</h4>
                             <p class="benefits-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-xl-2 col-md-8 col-lg-6">
+                            <i class="fas fa-thumbs-up"></i>
                             <h4>Quality Maitainance</h4>
                             <p class="benefits-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
@@ -101,45 +106,361 @@
 
             </div>
             <div class="row accent-row justify-content-center">
-                <div class="col-lg-3 accent-column mx-3">
+                <div class="col-xl-4 accent-column mx-3">
                     <div class="d-flex flex-row justify-content-between">
-                        <div class="col-lg-2 icon i-hands">
-
+                        <div class="col-xl-2 icon i-hands">
+                            <img src="Assets/img/i-hands.png" alt="">
                         </div>
-                        <div class="col-lg-10 d-inline p-0">
+                        <div class="col-xl-10 d-inline p-0">
                             <h3>Agency & Freelancer Partnership</h3>
                             <p class="accent-paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-3 accent-column  mx-3">
+                <div class="col-xl-4 accent-column  mx-3">
                     <div class="d-flex flex-row justify-content-between">
-                        <div class="col-lg-2 icon i-money">
-
+                        <div class="col-xl-2 icon i-money">
+                            <img src="Assets/img/i-money.png" alt="">
                         </div>
-                        <div class="col-lg-10 d-inline p-0">
+                        <div class="col-xl-10 d-inline p-0">
                             <h3>100% Money Back Guarantee</h3>
                             <p class="accent-paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.lorem</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg">
-                    <svg>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 text-lg-center text-xl-left align-self-center denounce pt-lg-4">
+                    <h2 class="pt-md-4 pt-sm-4">On the other hand we denounce with righteou</h2>
+                    <p class="small_text mx-lg-auto mx-xl-0 py-md-4 p-xl-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
+                    <ul class="d-inline-block">
+                        <li><i class="far fa-check-circle"></i><h5>At vero eos et accusamus et iusto odi</h5></li>
+                        <li><i class="far fa-check-circle"></i><h5>Dignissimos ducimus qui blanditiis praesentium</h5></li>
+                        <li><i class="far fa-check-circle"></i><h5>On the other hand, we denounce with righteous</h5></li>
+                        <li><i class="far fa-check-circle"></i><h5>Sed ut perspiciatis unde omnis iste natus error</h5></li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-12 happy_guy d-flex justify-content-center">
+                    <!-- <img class="mx-auto"src="Assets/img/happy_guy.png" alt=""> -->
+                </div>
+            </div>
+            <div class="row feedback justify-content-center">
+                <div class="col-xl-12 client-container col-lg-10">
+                    <h2 class="Clients">What our clients say!</h2>
+                    <div class="row flex-wrap justify-content-center">
+                        <div class="col-xl-4 col-lg-6 p-md-4 p-xl-0 pt-sm-4">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="vectors">
+                                    <img src="Assets/img/gavin.jpg" alt="">
+                                    <p class="feedback-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                                    <svg height="179" width="379">
+                                        <defs>
+                                            <filter id="s1" x="0" y="0" width="200%" height="200%">
+                                                <feGaussianBlur in="SourceAlpha" stdDeviation="1" />
+                                                <feOffset dx="2" dy="2" result="offsetblur" />
+                                                <feFlood flood-color="#dfdfdf" flood-opacity="1" />
+                                                <feComposite in2="offsetblur" operator="in" />
+                                                <feMerge>
+                                                    <feMergeNode in="offsetBlur" />
+                                                    <feMergeNode in="SourceGraphic" />
+                                                </feMerge>
+                                            </filter>
+                                        </defs>
+                                        <path filter="url(#s1)"  id="Path 2" class="shp0" d="M366.14,15.2c0,0 -14.14,26.63 -139.48,0c-125.34,-26.63 -218.66,16.25 -218.66,16.25v145.71h358.14z" />
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="feedback-author d-flex flex-column justify-content-center">
+                                <h5 class="author-name">Gavin McInnes</h5>
+                                <p>Canadian writer, actor and comedian</p>
+                            </div>
 
-                        <path id="Path 2" class="shp0" d="M366.14,15.2c0,0 -14.14,26.63 -139.48,0c-125.34,-26.63 -218.66,16.25 -218.66,16.25v145.71h358.14z" />
-                        Sorry, your browser does not support inline SVG.
-                    </svg>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 p-md-4 p-xl-0 pt-sm-4">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="vectors">
+                                    <img src="Assets/img/peterson.jpg" alt="">
+                                    <p class="feedback-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                                    <svg height="179" width="379">
+                                        <defs>
+                                            <filter id="s1" x="0" y="0" width="200%" height="200%">
+                                                <feGaussianBlur in="SourceAlpha" stdDeviation="1" />
+                                                <feOffset dx="2" dy="2" result="offsetblur" />
+                                                <feFlood flood-color="#dfdfdf" flood-opacity="1" />
+                                                <feComposite in2="offsetblur" operator="in" />
+                                                <feMerge>
+                                                    <feMergeNode in="offsetBlur" />
+                                                    <feMergeNode in="SourceGraphic" />
+                                                </feMerge>
+                                            </filter>
+                                        </defs>
+                                        <path filter="url(#s1)"  id="Path 2" class="shp0" d="M366.14,15.2c0,0 -14.14,26.63 -139.48,0c-125.34,-26.63 -218.66,16.25 -218.66,16.25v145.71h358.14z" />
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="feedback-author d-flex flex-column justify-content-center">
+                                <h5 class="author-name">Jordan B. Peterson</h5>
+                                <p>Professor of Psychology, University of Toronto</p>
+                            </div>
+
+                        </div>
+                        <div class="col-xl-4 col-lg-6 p-md-4 p-xl-0 pt-sm-4">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="vectors">
+                                    <img src="Assets/img/shapiro.jpg" alt="">
+                                    <p class="feedback-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                                    <svg height="179" width="379">
+                                        <defs>
+                                            <filter id="s1" x="0" y="0" width="200%" height="200%">
+                                                <feGaussianBlur in="SourceAlpha" stdDeviation="1" />
+                                                <feOffset dx="2" dy="2" result="offsetblur" />
+                                                <feFlood flood-color="#dfdfdf" flood-opacity="1" />
+                                                <feComposite in2="offsetblur" operator="in" />
+                                                <feMerge>
+                                                    <feMergeNode in="offsetBlur" />
+                                                    <feMergeNode in="SourceGraphic" />
+                                                </feMerge>
+                                            </filter>
+                                        </defs>
+                                        <path filter="url(#s1)"  id="Path 2" class="shp0" d="M366.14,15.2c0,0 -14.14,26.63 -139.48,0c-125.34,-26.63 -218.66,16.25 -218.66,16.25v145.71h358.14z" />
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="feedback-author d-flex flex-column justify-content-center">
+                                <h5 class="author-name">Ben Shapiro</h5>
+                                <p>Editor in Chief, Daily Wire</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row jobphotos">
+                <div class="z-10 col-xl text-center">
+                    <h2>Great Team</h2>
+
+                    <div class="row z-10 justify-content-center ">
+                        <div class=" z-10 col-xl-1 z-10 d-xl-flex d-none justify-content-center ">
+                            <button type="button" class="prev button-on-hover slick-arrow"><i class="fas fa-angle-left"></i>
+                            </button>
+                        </div>
+                        <div class="col-xl-8 z-10 p-0">
+                            <section class="boxes mx-auto">
+                                <div class="card ">
+                                    <img class="card-img-top" src="Assets/img/jobphoto1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ted Talker</h5>
+                                        <p class="card-text">Project Manager</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="Assets/img/jobphoto2.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Will Willis</h5>
+                                        <p class="card-text">Managing Director</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="Assets/img/jobphoto3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mary Jacobs</h5>
+                                        <p class="card-text">HR Manager</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="Assets/img/jobphoto4.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Steven Gowdy</h5>
+                                        <p class="card-text">Senior Software Developer</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="Assets/img/jobphoto5.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mike Drops</h5>
+                                        <p class="card-text">Creative Director</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img-top" src="Assets/img/jobphoto6.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Letz Cerveza</h5>
+                                        <p class="card-text">CEO</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-xl-1  d-xl-flex d-none justify-content-center ">
+                            <button type="button" class="next button-on-hover slick-arrow"><i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <svg class="back" width="1900" height="350">
+                <style>
+                .shp1 { fill: #f048ae}
+                </style>
+
+                <path id="Path" class="shp1" d="M0,232.73h1650.63l13.59,-217.08c0,0 -169.51,93.62 -307.38,42.27c-137.87,-51.35 -275.46,40.91 -341.95,-22.76c-66.49,-63.67 -182.47,-21.9 -331.65,-19.51c-149.18,2.39 -85.57,96.77 -330.96,54.58c-245.39,-42.19 -325.79,148.31 -325.79,148.31z" transform="scale(2) translate(-100, 20)"/>
+
+            </svg>
+        </div>
+        <div class="row justify-content-center blog">
+            <div class="col-xl d-flex flex-column justify-content-center ">
+                <h2>Latest Blog</h2>
+                <div class="row blog-containers justify-content-center m-0 p-0">
+                    <div class="col-xl-3 pt-4">
+                        <h4>Sed ut perspiciatis unde omnis iste natus error sit</h4>
+                        <div class="blog-stats d-flex flex-row">
+                            <p class="blog-stats-date">08 Jan, 2018</p>
+                            <div class="blog-stats-views">
+                                <i class="fas fa-eye"></i>
+                                <p>300</p>
+                            </div>
+                            <div class="blog-stats-comments">
+                                <i class="fas fa-comment"></i>
+                                <p class="blog-stats-comments">25</p>
+                            </div>
+                        </div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo…</p>
+                        <a class="read-more" href="#">Read More</a>
+                    </div>
+                    <div class="col-xl-3 pt-4">
+                        <h4>Sed ut perspiciatis unde omnis iste natus error sit</h4>
+                        <div class="blog-stats d-flex flex-row">
+                            <p class="blog-stats-date">08 Jan, 2018</p>
+                            <div class="blog-stats-views">
+                                <i class="fas fa-eye"></i>
+                                <p>300</p>
+                            </div>
+                            <div class="blog-stats-comments">
+                                <i class="fas fa-comment"></i>
+                                <p class="blog-stats-comments">25</p>
+                            </div>
+                        </div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo…</p>
+                        <a class="read-more" href="#">Read More</a>
+                    </div>
+                    <div class="col-xl-3 pt-4">
+                        <h4>Sed ut perspiciatis unde omnis iste natus error sit</h4>
+                        <div class="blog-stats d-flex flex-row">
+                            <p class="blog-stats-date">08 Jan, 2018</p>
+                            <div class="blog-stats-views">
+                                <i class="fas fa-eye"></i>
+                                <p>300</p>
+                            </div>
+                            <div class="blog-stats-comments">
+                                <i class="fas fa-comment"></i>
+                                <p class="blog-stats-comments">25</p>
+                            </div>
+                        </div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo…</p>
+                        <a class="read-more" href="#">Read More</a>
+                    </div>
                 </div>
 
-            </div>
-    </main>
 
+            </div>
+
+        </div>
+        <div class="row subscription justify-content-center">
+            <div class="col-xl-4 d-flex flex-column justify-content-center p-0">
+                <span class="align-self-end mx-md-auto text-center pt-4 pt-lg-0 pt-xl-0">Sign-up for monthly Newsletter</span>
+            </div>
+            <div class="col-xl-5 email-container">
+                <div class="i-email">
+                    <i class="fas fa-envelope-open"></i>
+                </div>
+                <input class="email-bar" type="email" value="" placeholder="Enter Your Email Address">
+                <button class="btn button-on-hover email-btn" type="button" name="button">Subscribe</button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer justify-content-center">
+            <div class="row footer-info justify-content-center">
+                <div class="col col-xl-10 footer-container">
+                    <div class="row">
+
+
+                <div class="col-sm-6 col-xl-3 col-xs-12 pt-4">
+                    <h5>Information</h5>
+                    <ul class="d-inline-block">
+                        <li>About Us</li>
+                        <li>Additional Info</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>FAQ's</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-xl-3 col-xs-12 pt-4">
+                    <h5>Navigation</h5>
+                    <ul class="d-inline-block">
+                        <li>About Us</li>
+                        <li>Additional Info</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>FAQ's</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-xl-3 col-xs-12 pt-4">
+                    <h5>Resource</h5>
+                    <ul class="d-inline-block">
+                        <li>About Us</li>
+                        <li>Additional Info</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>FAQ's</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-xl-3 col-xs-12 pt-4">
+                    <h5>Site Map</h5>
+                    <ul class="d-inline-block">
+                        <li>About Us</li>
+                        <li>Additional Info</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>FAQ's</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="social row justify-content-center">
+                <h3>Follow Us</h3>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="copyrights">
+                <p>Copyright All Right Reserved By ROKAS KUČINSKAS 2018</p>
+
+            </div>
+            <svg class="back" width="1665" height="350  ">
+                <style>
+                .shp2 { fill: #f6f6f6}
+                </style>
+
+                <path id="Path" class="shp2" d="M0,232.73h1650.63l13.59,-217.08c0,0 -169.51,93.62 -307.38,42.27c-137.87,-51.35 -275.46,40.91 -341.95,-22.76c-66.49,-63.67 -182.47,-21.9 -331.65,-19.51c-149.18,2.39 -85.57,96.77 -330.96,54.58c-245.39,-42.19 -325.79,148.31 -325.79,148.31z"  transform="scale(2) translate(-100, 20)"/>
+
+            </svg>
+        </div>
+    </footer>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="Assets/js/script.js"></script>
+
+</script>
 </body>
 </html>

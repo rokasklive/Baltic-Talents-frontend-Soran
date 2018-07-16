@@ -43,13 +43,33 @@ h4 {
     line-height: 27px;
     font-weight: bold;
 }
+h5 {
+    font-family: $content_font;
+    color: $accent_color1;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 2rem 0;
+}
 
-p {
+.author-name{
+    font-family: $content_font;
+    color: $accent_color1;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+p, li {
     font-family: $content_font;
     color: $accent_color1;
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
+
+}
+
+li{
+    list-style-type: square;
 
 }
 

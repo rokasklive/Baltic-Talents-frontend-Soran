@@ -7,17 +7,18 @@
 @import 'page';
 @import 'button';
 @import 'icons';
-@import 'header';
+@import 'carousel';
 
-html, body{
-    margin: 0;
+body,
+html {
+    margin : 0;
     padding: 0;
 }
 
 main {
-    width: 100%;
+    width  : 100%;
     padding: 0;
-    margin: 0;
+    margin : 0;
 }
 
 .row {
@@ -25,16 +26,17 @@ main {
 };
 
 input {
-    text-align: center;
+    text-align : center;
     font-family: $content_font;
-    color: $accent_color1;
-    font-size: 1rem;
+    color      : $accent_color1;
+    font-size  : 1rem;
 }
 
 div {
-    border: 0px solid grey;
+    border: 0 solid grey;
 }
-.container-fluid{
-    margin: 0;
+
+.container-fluid {
+    margin : 0;
     padding: 0;
 }

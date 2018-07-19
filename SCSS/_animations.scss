@@ -1,8 +1,9 @@
-@keyframes scaleOnHover{
-    from{
-        transform:scale(1);
+@keyframes scaleOnHover {
+    from {
+        transform: scale(1);
     }
-    to{
-        transform:scale(1.05);
+
+    to {
+        transform: scale(1.05);
     }
 }

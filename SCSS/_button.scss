@@ -1,62 +1,68 @@
 @import 'animations';
 
-.cover-btn{
-    width: 69px;
-    height: 69px;
-    display: inline-block;
-    padding: 0;
+.cover-btn {
+    width        : 69px;
+    height       : 69px;
+    display      : inline-block;
+    padding      : 0;
     border-radius: 50%;
-
 }
-button:focus {outline:0;}
 
-.button-on-hover{
-    transition: all .1s ease-in-out;
-    &:hover{
-        transform: scale(1.01);
+button:focus {
+    outline: 0;
+}
+
+.button-on-hover {
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        transform : scale(1.01);
         box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.33);
     }
 }
 
 .search-btn {
-    display: inline-block;
-    width: 140px;
-    height: 70px;
+    display                   : flex;
+    align-items               : center;
+    width                     : 140px;
+    height                    : 70px;
     border-bottom-right-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    border: none;
-    background-color: $primary_color;
-    color: white;
-    text-align: center;
-    vertical-align: top;
-}
+    border-top-right-radius   : 35px;
+    border-bottom-left-radius : 0;
+    border-top-left-radius    : 0;
+    border                    : none;
+    background-color          : $primary_color;
+    color                     : white;
+    text-align                : center;
+    vertical-align            : top;
 
-@media only screen and (max-width: 576px){
+    i {
+        padding-right: 0.5rem;
+        font-size    : 2rem;
+    }
+}
+@media only screen and (max-width: 576px) {
     .search-btn {
         height: 60px;
     }
 }
 
 .email-btn {
-    display: inline-block;
-    width: 150px;
-    height: 70px;
+    display                   : inline-block;
+    width                     : 150px;
+    height                    : 70px;
     border-bottom-right-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    border: none;
-    font-weight: 700;
-    background-color: $accent_color1;
-    color: white;
-    text-align: center;
-    vertical-align: top;
+    border-top-right-radius   : 35px;
+    border-bottom-left-radius : 0;
+    border-top-left-radius    : 0;
+    border                    : none;
+    font-weight               : 700;
+    background-color          : $accent_color1;
+    color                     : white;
+    text-align                : center;
+    vertical-align            : top;
 }
-
-
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
     .email-btn {
         height: 60px;
     }
@@ -64,10 +70,10 @@ button:focus {outline:0;}
 
 .slick-arrow {
     background-color: #fff;
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    align-self: center;
-    border: 0;
-    outline: none;
+    border-radius   : 50%;
+    width           : 65px;
+    height          : 65px;
+    align-self      : center;
+    border          : 0;
+    outline         : none;
 }

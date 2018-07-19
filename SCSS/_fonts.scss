@@ -1,95 +1,95 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300,400,600,700');
 @import 'variables';
 
-html,
-body {
+body,
+html {
     font-size: 16px;
 }
 
 h1 {
-    font-family: $content_font;
-    color: #fff;
-    font-weight: 400;
-    font-size: 3rem;
-    padding: 0;
-    max-width: 879px;
+    font-family : $content_font;
+    color       : #fff;
+    font-weight : 400;
+    font-size   : 3rem;
+    padding     : 0;
+    max-width   : 879px;
     word-spacing: 2;
-    line-height: 4.68rem;
+    line-height : 4.68rem;
 }
-
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
     h1 {
-        font-size: 2rem;
+        font-size  : 2rem;
         line-height: 3rem;
     }
 }
 
 h2 {
     font-family: $content_font;
-    color: $accent_color1;
-    font-size: 3rem;
+    color      : $accent_color1;
+    font-size  : 3rem;
     font-weight: 700;
 }
 
 h3 {
-    display: inline-block;
-    color: $accent_color1;
-    font-family: $content_font;
-    font-size: 24px;
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 700;
-    text-align: left;
+    display      : inline-block;
+    color        : $accent_color1;
+    font-family  : $content_font;
+    font-size    : 24px;
+    font-style   : normal;
+    font-stretch : normal;
+    font-weight  : 700;
+    text-align   : left;
     margin-bottom: 36px;
 }
 
 h4 {
     font-family: $content_font;
-    color: $primary_color;
-    font-size: 20px;
+    color      : $primary_color;
+    font-size  : 20px;
     line-height: 27px;
     font-weight: bold;
 }
+
 h5 {
     font-family: $content_font;
-    color: $accent_color1;
-    font-size: 18px;
+    color      : $accent_color1;
+    font-size  : 18px;
     line-height: 25px;
-    margin: 2rem 0;
+    margin     : 2rem 0;
 }
 
-.author-name{
+.author-name {
     font-family: $content_font;
-    color: $accent_color1;
-    font-size: 18px;
+    color      : $accent_color1;
+    font-size  : 18px;
     line-height: 25px;
     font-weight: bold;
 }
 
-p, li {
+li,
+p {
     font-family: $content_font;
-    color: $accent_color1;
+    color      : $accent_color1;
     font-weight: 400;
-    font-size: 14px;
+    font-size  : 14px;
     line-height: 30px;
-
 }
 
-li{
+li {
     list-style-type: square;
-
 }
 
 a {
-    font-size: .875rem;
-    color: $accent_color1;
+    font-size  : 0.875rem;
+    color      : $accent_color1;
     font-family: $content_font;
     font-weight: 600;
 }
 
-button, .btn {
-    font-size: .875rem;
-    color: $secondary_color;
+.btn,
+button {
+    font-size  : 0.875rem;
+    color      : $secondary_color;
     font-family: $content_font;
-    text-align: center;
+    text-align : center;
 }

@@ -1,46 +1,75 @@
-@import 'variables';
+@import "variables";
 
 .navbar-brand {
-    font-family: $brand_font;
-    font-size: 2.25rem;
-    font-weight: 400;
-    color: $accent_color1;
+    color         : $accent_color1;
     text-transform: uppercase;
-    i{
+    font-family   : $brand_font;
+    font-size     : 2.25rem;
+    font-weight   : 400;
+
+    i {
         color: $primary_color;
     }
 }
+@media only screen and (max-width : 1200px) {
+    .nav-item {
+        padding   : 10px;
+        text-align: center;
 
-
-.nav-button {
-    border: none;
-    width: 159px;
-    height: 52px;
-    border-radius: 26px;
-    background-color: $primary_color;
-    color: white;
-    text-align: center;
+        .navbar-toggler {
+            font-size: 2rem;
+        }
+    }
+}
+@media only screen and (min-width : 1200px) {
+    .navbar-nav {
+        position: relative;
+        left    : 75px;
+    }
 }
 
-.navbar-toggler{
-    border: 0;
+.nav-button {
+    width           : 159px;
+    height          : 52px;
+    color           : white;
+    border          : none;
+    border-radius   : 26px;
+    background-color: $primary_color;
+    text-align      : center;
+}
+
+.navbar-toggler {
     display: inline-block;
+    border : 0;
+}
+
+.navbar-collapse {
+    display       : flex;
+    align-items   : center;
+    flex-direction: column;
+}
+
+.navbar-collapse.collapse.show {
+    position        : relative;
+    top             : 35px;
+    background-color: #fafafa;
 }
 
 nav {
-    height: 100px;
+    z-index  : 10;
+    position : relative;
     max-width: 1150px;
+    height   : 100px;
 }
 
 .navbar li {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-    list-style: none;
+    padding-right: 1.5rem;
+    padding-left : 1.5rem;
+    list-style   : none;
 }
 
-
-.header-row{
-background-color: #fafafa;
+.header-row {
+    background-color: #fafafa;
 }
 
 .navbar-toggler {

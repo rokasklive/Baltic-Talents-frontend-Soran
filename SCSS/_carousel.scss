@@ -1,0 +1,75 @@
+.jobphotos {
+    z-index         : 1;
+    position        : relative;
+    padding-bottom  : 7rem;
+    background-color: $primary_color;
+
+    h2 {
+        margin: 7rem;
+        color : #fff;
+    }
+
+    i {
+        color      : $accent_color1;
+        line-height: 100%;
+        transform  : scale(3);
+    }
+
+    button {
+        z-index : 10;
+        position: relative;
+    }
+
+    .card {
+        width        : 360px;
+        margin       : 20px;
+        border       : 0;
+        border-radius: 10px;
+        box-shadow   : 3px 3px 15px rgba(0, 0, 0, 0.33);
+
+        .card-img-top {
+            height       : 367px;
+            border-radius: 9px 9px 0 0;
+            object-fit   : cover;
+        }
+
+        .card-title {
+            margin-top : 0.5rem;
+            font-size  : 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.back {
+    z-index   : -1;
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 100%;
+    overflow-y: hidden;
+}
+@media only screen and (min-width : 1600px) {
+    .card {
+        z-index  : 5;
+        position : relative;
+        max-width: 360px;
+    }
+
+    .boxes {
+        z-index  : 5;
+        position : relative;
+        max-width: 1200px;
+        padding  : 0;
+    }
+
+    svg {
+        z-index : 1;
+        position: relative;
+    }
+}
+@media only screen and (max-width : 576px) {
+    .jobphotos h2 {
+        margin: 2rem;
+    }
+}

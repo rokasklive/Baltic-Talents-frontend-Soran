@@ -37,6 +37,20 @@
     width:                  80%;
     max-width:              736px;
 }
+@media only screen and (max-width: 576px){
+    .search-container{
+        width: 100%;
+    }
+    .search-bar{
+        height: 60px;
+        &::placeholder{
+            font-size: .875rem;
+        }
+    }
+    .search-btn{
+        height: 60px;
+    }
+}
 
 .cover-btn-container {
     display:                flex;
@@ -49,6 +63,11 @@
 
 .cover-container {
     margin-top:             180px;
+}
+@media only screen and (max-width: 576px){
+    .cover-container {
+        margin-top: 80px;
+    }
 }
 
 .benefits-paragraph {
@@ -77,6 +96,18 @@
     max-width:              540px;
 }
 
+@media only screen and (max-width: 576px){
+    .accent-column {
+        padding: 36px 15px 15px 15px;
+        .icon {
+            margin-right: 15px;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+    }
+}
+
 .shp0 {
     fill:                   #ffffff;
 }
@@ -88,6 +119,19 @@ svg {
 .happy_guy {
     padding:                0;
     margin:                 7rem 0;
+    position: relative;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 736px){
+.happy_guy{
+    img{
+        width: 100%;
+        margin: 0;
+        object-fit: cover;
+        object-position: center;
+        }
+    }
 }
 
 .benefits-bottom {
@@ -105,6 +149,8 @@ svg {
 }
 
 .denounce {
+    position: relative;
+    z-index: 20;
     padding-left:           50px;
         li {
             list-style:     none;
@@ -122,6 +168,11 @@ svg {
                 display:     inline-block;
             }
         }
+}
+@media only screen and (max-width: 576px){
+    .feedback-author{
+        padding-bottom: 2rem;
+    }
 }
 
 .feedback {
@@ -300,6 +351,21 @@ svg {
     max-width: 736px;
     margin: 30px;
     padding: 0;
+}
+
+@media only screen and (max-width: 576px){
+    .email-container{
+        width: 100%;
+    }
+    .email-bar{
+        height: 60px;
+        &::placeholder{
+            font-size: .875rem;
+        }
+    }
+    .i-email {
+        height: 60px;
+    }
 }
 
 .subscription {

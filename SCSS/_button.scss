@@ -33,6 +33,12 @@ button:focus {outline:0;}
     vertical-align: top;
 }
 
+@media only screen and (max-width: 576px){
+    .search-btn {
+        height: 60px;
+    }
+}
+
 .email-btn {
     display: inline-block;
     width: 150px;
@@ -47,6 +53,13 @@ button:focus {outline:0;}
     color: white;
     text-align: center;
     vertical-align: top;
+}
+
+
+@media only screen and (max-width: 576px){
+    .email-btn {
+        height: 60px;
+    }
 }
 
 .slick-arrow {
